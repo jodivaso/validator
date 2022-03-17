@@ -12,7 +12,7 @@ by the World Wide Web Consortium (W3C) for HTML version 5.
 -  Each CSS must be validated by the W3C CSS Validation Service for CSS version 3.
 - Contents and styling must be completely distinguished, i.e., the HTML
 files must be focused on the contents and their structure and they must not include any
-attribute about the aspect or the style of the website. \label{requisitos_itm_3}
+attribute about the aspect or the style of the website.
 - There must be at least eight different HTML files. 
 - There must be at least two different CSS files.
 - All the HTML files must be linked to a CSS file and, at least, two of them

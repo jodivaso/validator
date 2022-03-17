@@ -395,10 +395,10 @@ public class Validar extends Thread {
 		if (sourceZip)
 		{			
 			String rutaSinCarpetaComprimida = file.substring(file.indexOf("/") + 1);
-			url_belenus = "https://belenus.unirioja.es/~" + cuasi + "/trabajoSI/"+rutaSinCarpetaComprimida;
+			url_belenus = "https://laika.unirioja.es/~" + cuasi + "/trabajoSI/"+rutaSinCarpetaComprimida;
 		} 
 		
-		else url_belenus = "https://belenus.unirioja.es/~" + cuasi + "/trabajoSI/"+Utils.fileName(file,folderPath);
+		else url_belenus = "https://laika.unirioja.es/~" + cuasi + "/trabajoSI/"+Utils.fileName(file,folderPath);
 				int codigo_respuesta = 0;
 		HttpsURLConnection con = null;
 		try {

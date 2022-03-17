@@ -1,6 +1,6 @@
 # Validator
 
-This is a tool to help students with the projects for the course ***Computer Systems*** (belongig to the computer science degree 
+This is a tool to help students with the projects for the course ***Computer Systems*** (which belongs to the computer science degree 
 and the degree in mathematics) of University of La Rioja.
 
 The tool provides feedback on some of the imposed requirements of the projects. The tool is open-source and can be adapted by other teachers in other contexts.

@@ -5,6 +5,8 @@ and the degree in mathematics) of University of La Rioja.
 
 The tool provides feedback on some of the imposed requirements of the projects. The tool is open-source and can be adapted by other teachers in other contexts.
 
+![](https://raw.githubusercontent.com/jodivaso/validator/master/readme_video.mp4)
+
 ## Requirements checked by the tool
 
 - Each HTML file must have a well-formed markup, i.e., they must pass the validator 

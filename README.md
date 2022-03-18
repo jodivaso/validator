@@ -59,5 +59,5 @@ no check about  no check about uploading the project to the university server an
 
 ## Run the tool
 Simply create a Java project in your favorite IDE. Unzip the file ```libraries.zip``` and add those libraries to the project. Run ```ValidatorStart.java```.
-Some projects are included in the folder ```Project examples``` that can be used to test the tool.
+Some projects are included in the folder ```Project examples``` that can be used to test the tool. Tested with JDK 1.8.
 

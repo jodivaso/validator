@@ -5,7 +5,9 @@ and the degree in mathematics) of University of La Rioja.
 
 The tool provides feedback on some of the imposed requirements of the projects. The tool is open-source and can be adapted by other teachers in other contexts.
 
-![](https://raw.githubusercontent.com/jodivaso/validator/master/readme_video.mp4)
+
+https://user-images.githubusercontent.com/50442034/158994595-d2a3c020-848d-4102-ab5c-4c8f7a2be470.mp4
+
 
 ## Requirements checked by the tool
 

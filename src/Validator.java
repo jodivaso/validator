@@ -748,12 +748,12 @@ private void unzipRar(File fich) {
 					for(String a:archivos){
 					//	System.out.println(a);
 						if (a.substring(a.lastIndexOf(".") + 1).equals("html")) {
-							Validar v = new Validar(true, a, barrera,erroneosHTML,erroneosCSS,acc,
+							Validate v = new Validate(true, a, barrera,erroneosHTML,erroneosCSS,acc,
 										cuasi,rutaCarpeta,noExistenBelenus,noCoincidenBelenus, origenComprimido);
 							numHTMLAnalizados++;
 							pool.execute(v);
 						} else if (a.substring(a.lastIndexOf(".") + 1).equals("css")) {
-							Validar v = new Validar(false, a, barrera,erroneosHTML,erroneosCSS,acc,
+							Validate v = new Validate(false, a, barrera,erroneosHTML,erroneosCSS,acc,
 										cuasi,rutaCarpeta,noExistenBelenus,noCoincidenBelenus, origenComprimido);
 							numCSSAnalizados++;
 							pool.execute(v);

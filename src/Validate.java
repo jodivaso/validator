@@ -13,7 +13,7 @@ import utils.Accumulator;
 import utils.HashSHA256;
 import utils.Utils;
 
-public class Validar extends Thread {
+public class Validate extends Thread {
 	private boolean html;
 	private String file;
 	private CyclicBarrier barrier;
@@ -27,7 +27,7 @@ public class Validar extends Thread {
 	private boolean sourceZip; 
 
 
-	public Validar(boolean h,String fichero, CyclicBarrier barrera, List<String> e1, List<String> e2, 
+	public Validate(boolean h,String fichero, CyclicBarrier barrera, List<String> e1, List<String> e2, 
 			Accumulator acumulador, String cuasi, String rutaCarpeta, List<String> e3, List<String> e4, boolean origenComprimido) {
 		this.html=h;
 		this.file=fichero;
@@ -145,7 +145,7 @@ public class Validar extends Thread {
 			}
 			Utils.close(br);
 			
-			URL u = new URL("http://jigsaw.w3.org/css-validator/validator?output=soap12&" + param);
+			URL u = new URL("https://jigsaw.w3.org/css-validator/validator?output=soap12&" + param);
 
 			String fichxml = file.substring(0, file.lastIndexOf("."));
 
@@ -214,7 +214,7 @@ public class Validar extends Thread {
 			}
 			Utils.close(br);
 			
-			URL u = new URL("http://jigsaw.w3.org/css-validator/validator");
+			URL u = new URL("https://jigsaw.w3.org/css-validator/validator");
 			String fichxml = file.substring(0, file.lastIndexOf("."));
 
 			HttpURLConnection url = (HttpURLConnection) u.openConnection();
